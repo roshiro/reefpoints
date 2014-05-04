@@ -1,0 +1,5 @@
+%ul
+  - if current_page.twitter
+    %li= link_to 'Twitter', "http://twitter.com/#{current_page.twitter}", target: '_blank', class: 'twitter'
+  - if current_page.github
+    %li= link_to 'GitHub', "https://github.com/#{current_page.github}", target: '_blank', class: 'github'
