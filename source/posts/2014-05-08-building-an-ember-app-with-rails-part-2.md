@@ -11,7 +11,7 @@ published: true
 tags: ember, ruby, ruby on rails
 ---
 
-We need to start this part with a bug fix. There is a bug for the live reload. In `ember/tests/helpers/start-app.js` 
+We need to start this part with a bug fix. There is a bug for the live reload. In `ember/tests/helpers/start-app.js`
 insert the 2nd line:
 
 ```js
@@ -59,7 +59,7 @@ format. If you are unfamiliar with ES6 modules I suggest you go and read
 up.
 
 ```js
-import startApp from 'bostonember/tests/helpers/start-app';
+import startApp from '../helpers/start-app';
 
 var App;
 
